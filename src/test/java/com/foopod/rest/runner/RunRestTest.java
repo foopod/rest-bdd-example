@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         format = { "pretty", "html:target/cucumber" },
         glue = "com.foopod.rest.steps",
-        features = "classpath:cucumber/rest.feature"
+        features = "classpath:"
 )
 public class RunRestTest {
 }
